@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit',sans-serif;
+}
+
+main{
+    width: 20em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    padding:1.1em;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+}
+
+.Equilibrium-Image{
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
+    border-radius: 0.5em;
+    position:relative;
+    display: block;
+}
+
+main h3{
+    padding:0.9em 0 0.9em 0;
+    color:white;
+}
+
+.Paragraph-Text{
+    font-size: 1rem;
+    color:hsl(215, 30%, 64%);
+    padding:0.2em 0 0.2em 0;
+}
+
+.Day-Eth-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:1.2em 0 1.2em 0;    
+}
+
+.Day-Eth-Container img{
+    height: 1em;
+}
+
+.left-text,.right-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+}
+
+.ETH-text{
+    color:#00FFF8;
+}
+
+.TIME-text{font-size: 0.9rem;
+    color:#8BACD9;
+}
+
+.Line{
+    width: 100%;
+    border: 0.1em solid hsl(215, 32%, 27%);
+}
+
+.Creator-Container{
+    margin:2em 0 0em 0;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    color:hsl(215, 30%, 64%);
+    font-size: 0.9rem;
+}
+
+.Creator-Container img{
+    width: 2em;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.Creator-Container a{
+    color: white;
+    margin-left:-0.8em;
+}
+
+main h3:hover{
+    color:#00FFF8;
+    cursor: pointer;
+}
+
+
+
+.Creator-Container a:hover{
+    color: #00FFF8;
+    margin-left:-0.8em;
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    position: relative;
+    bottom: -12em;
+}
+
